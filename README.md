@@ -1,4 +1,4 @@
-# ItemOrderAPI RESTful Web Services with Spring Boot
+# ItemOrderAPI RESTful Web Services with Spring Boot and MySql
 - Creating Product, Order and OrderProduct bean.
 - Implementing GET Methods for Product Controller
 - Implementing POST Method to create Product Controller
