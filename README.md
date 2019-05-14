@@ -22,7 +22,7 @@
 - Postman REST Services Client
 
 ## API Documentation
-- Try to open (### http://localhost:8080/v2/api-docs)
+- Try to open (http://localhost:8080/v2/api-docs)
 
 ## MySql credential change
 -- change MySql credential (user name and password)
@@ -30,5 +30,6 @@
 ## URLs
 -- http://localhost:8080/api/products
   * end points (/{id},/save,/delete/{id},)
+  <br />
 -- http://localhost:8080/api/order/
   * end points (/create)
