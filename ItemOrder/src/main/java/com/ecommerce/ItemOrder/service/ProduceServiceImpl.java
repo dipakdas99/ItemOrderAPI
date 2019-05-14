@@ -1,8 +1,5 @@
 package com.ecommerce.ItemOrder.service;
 
-import java.util.Iterator;
-import java.util.List;
-
 import javax.transaction.Transactional;
 import javax.validation.constraints.NotNull;
 
@@ -12,6 +9,10 @@ import org.springframework.stereotype.Service;
 import com.ecommerce.ItemOrder.Bean.Product;
 import com.ecommerce.ItemOrder.dao.ProductRepository;
 
+/**
+ * @author dipak.das
+ *
+ */
 @Service
 @Transactional
 public class ProduceServiceImpl implements ProductService{
@@ -21,7 +22,6 @@ public class ProduceServiceImpl implements ProductService{
 	
 	@Override
 	public @NotNull Iterable<Product> getAllProducts() {
-		// TODO Auto-generated method stub
 		return productRepository.findAll();
 	}
 	

@@ -20,6 +20,10 @@ import com.ecommerce.ItemOrder.Bean.Product;
 import com.ecommerce.ItemOrder.service.ProductService;
 import com.ecommerce.ItemOrder.service.ResourceNotFoundException;
 
+/**
+ * @author dipak.das
+ *
+ */
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
@@ -44,13 +48,13 @@ public class ProductController {
 		URI location = ServletUriComponentsBuilder
 			.fromCurrentRequest()
 			.path("/{id}")
-			.buildAndExpand(savedProduct.getId())
+			.buildAndExpand(savedProduct.getProductId())
 			.toUri();
 		return ResponseEntity.created(location).build();
 	}
 	@DeleteMapping("/delete/{id}")
 	public void deleteUser(@PathVariable long id) {
-		//delete individual user
+		//delete individual product
 		Product product = productService.deleteById(id);
 		if (product == null)
 			throw new ResourceNotFoundException("id: "+id);
