@@ -33,7 +33,7 @@
 ## URLs (Orders)
 -- http://localhost:8080/api/order/
   * end points (/create)
-## POST Search
+## Place Order
 ```
 [
 	{
@@ -49,7 +49,7 @@
 	}
 ]
 ```
-## Insert data (demo)
+## Insert Item (demo)
 ```
 {
     "id": 104,
