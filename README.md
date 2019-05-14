@@ -33,3 +33,28 @@
 ## URLs (Orders)
 -- http://localhost:8080/api/order/
   * end points (/create)
+## POST Search
+```
+[
+	{
+        "itemName": "Furniture",
+        "quantity": 20,
+        "userEmail": "dasdipak99@gmail.com",
+        "product": {
+        	"productId": 102,
+        	"name": "",
+        	"price": 0,
+        	"quantity": 0
+        }
+	}
+]
+```
+## Insert data (demo)
+```
+{
+    "id": 104,
+    "name": "Computer",
+    "price": 20000.23,
+    "quantity": 105
+}
+```
