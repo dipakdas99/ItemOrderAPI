@@ -27,9 +27,9 @@
 ## MySql credential change
 -- change MySql credential (user name and password)
 
-## URLs
+## URLs (Products)
 -- http://localhost:8080/api/products
   * end points (/{id},/save,/delete/{id},)
-  <br />
+## URLs (Orders)
 -- http://localhost:8080/api/order/
   * end points (/create)
